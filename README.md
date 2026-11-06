@@ -1,17 +1,20 @@
-# my_product_app
+This Flutter application uses Firebase Authentication to register users, sign in, sign out, and update passwords.
 
-A new Flutter project.
+Features
 
-## Getting Started
+User registration and sign-in
+Profile screen showing the user's email
+Password updates with reauthentication
+Sign-out and automatic authentication-state routing
+Input validation and error messages
 
-This project is a starting point for a Flutter application.
+Setup
 
-A few resources to get you started if this is your first Flutter project:
+Install Flutter and the required dependencies using flutter pub get.
+Configure a Firebase project and enable Email/Password authentication.
+Run flutterfire configure to connect Firebase to the project.
+Start the app using flutter run.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+Testing
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+I tested registration, invalid sign-in, password updates, sign-out, and session restoration using a Pixel 7 Pro on the Android Studio Emulator.
